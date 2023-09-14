@@ -13,16 +13,16 @@ python **3.6**
 tensorflow **1.14**  
 
 ### Pipeline 
-<img src="/figure/overview.png" width = "1000" height = "200" align=center/>
+<img src="/figure/overview.png" width = "1000" height = "190" align=center/>
 
 ### Run the Code  
-Train single erosion network used in single-model attacks or multiple erosion networks used in ensemble-attacks. 
+Train a single erosion network for using in single-model attacks or multiple erosion networks for using in ensemble attacks.
 
-(1) `train_aux_i3.py` for InceptionV3, 
+(1) `train_aux_i3.py` for InceptionV3. 
 
-(2) `train_aux_i4.py` for InceptionV4, 
+(2) `train_aux_i4.py` for InceptionV4. 
 
-(3) `train_aux_ir2.py` for InceptionResNetV2, 
+(3) `train_aux_ir2.py` for InceptionResNetV2. 
 
 (4) `train_aux_r50.py` for ResNet50. 
 
@@ -34,11 +34,11 @@ Run EA to generate adversarial examples: `erosion_attack.py`.
 
 <b>Standalone Experiment</b>
 
-<img src="/figure/exp1.png" width = "500" height = "300" align=center/>
+<img src="/figure/exp1.png" width = "400" height = "250" align=center/>
 
 <b>Combination Experiment</b>
 
-<img src="/figure/exp2.png" width = "1000" height = "370" align=center/>
+<img src="/figure/exp2.png" width = "900" height = "370" align=center/>
 
 <3>Ensemble Experiment</b>
 
